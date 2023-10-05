@@ -1,0 +1,11 @@
+@charset "UTF8";
+
+main{
+background-image: linear-gradient(to left, rgb(66, 166, 154),#F5DCF7);
+border-radius: 15px;
+box-shadow: 5px 5px 0px 
+gray;
+padding: 15px;
+margin: 38px;
+
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        
+        body {
+
+            font-family: Arial, Helvetica, sans-serif; 
+
+            /* Medidas absolutas:
+                cm ( centimetro), mm (milimetro), in(Polegada), px( pixel), pt(ponto), pc(paica)
+
+            medidas relativas:
+                em(tamanho relativo ao M maiusculo de uma fonte.), ex (Tamanho relatixo ao X maiusculo de uma fonte.), rem, vm (View port - tamaho baseado no tamanho da tela em porcentagem), vh(Altura da view port), %
+
+            Obsevação: A W3C recomenda utilizar apenas o px e o em.
+            */
+
+            font-size: 16px ;
+
+            /* Na maioria das vezes o tamho padrão de qualuqer fonte é de 16px (16 pixels), 16px tem o mesmo tamanho que 1em que é baseado na tipografia então 1em equivale ao tamanho normal de uma letra ja 2em o dobro do tamanho normal ou seja de 16px é 1em, 2em equivale a 32px.*/
+
+            font-weight: 800;
+
+            /* podemos utilizar a tag acima para definir o quão negrito a fonte pode ser */
+            /* Tipos de pesos: lighter, normal, bold, bolder */
+            /* weight = peso, width = largura, heigth = altura */
+
+            font-style: normal;
+
+            /* podemos usar o a tag acima para colocar o texto em negrito */
+
+            text-decoration: underline;
+
+            /* A tag acima é utilizada para aplicar diferentes tipos de sublinhado na fonte */
+            
+        } 
+
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+
+            /*shorthand font 
+
+            - font-style -> font-weigth -> font-size -> font-family
+
+            A ORDEM ACIMA DEVE SER RESPEITADA
+
+            */
+
+            font: italic bolder 3em 'Sork Sans', sans-serif;
+
+            /* no caso acima podemos ver que todas aquelas tegs para configuração de texto foram resumidas em uma linha com a tag font */
+
+        }
+
+        h2 {
+            font: italic bold 2em 'Work Sans';
+        }
+        
+    </style>
+    <!--CSS web safe font combinations, para saber quais fontes devemos usar para funcionar em qualquer dispositivo.-->
+
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus similique beatae nam veritatis exercitationem obcaecati explicabo tenetur in ut natus. Quas, nulla. Obcaecati repellat velit vitae nostrum consectetur minima debitis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore aliquam atque, asperiores recusandae rem necessitatibus. Expedita fugit harum nam sint pariatur deleniti repellendus veritatis ullam accusantium. Veniam sint architecto expedita.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae nobis asperiores animi laudantium cupiditate dolor veniam expedita ut tempore ratione facere quod amet, voluptates id nemo, eligendi repellendus! Molestiae, sint?</p>
+
+        <h2>Subtitulo do exercício</h2>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio doloribus, adipisci neque, molestiae placeat aut rerum cum voluptas eos nostrum ipsum sit dicta sapiente esse, voluptate sunt nesciunt cupiditate odit!</p>
+</body>
+</html>
