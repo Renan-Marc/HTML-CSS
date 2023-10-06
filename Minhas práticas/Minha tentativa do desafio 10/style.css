@@ -1,0 +1,257 @@
+@charset "UTF-8";
+
+body{
+    
+    margin: 0px;
+    padding: 0px 0px 40px 0px;
+    
+    
+    background-color: #E7E5C3;
+    border-radius: 100px;
+
+    border-top: rgb(210, 193, 209);
+    
+}
+
+
+
+div#fundo{
+
+    background-color: white;
+
+    box-shadow: 0px 4px 4px 0px rgba(84, 83, 83, 0);
+     
+    height: 23785x;
+    border-radius: 0px 0px 10px 10px;
+
+    margin: 0px 90px;
+    padding: 0px 0px 30px 0px;
+    border: 0px;
+
+
+}
+
+div.foto{
+
+    text-align: center;
+    padding: 10px ;
+    
+}
+
+div#video{
+
+    text-align: center;
+
+    background-color: #1A5C38;
+
+    border: solid 30px #1A5C38;
+    width: auto;
+    height: auto;
+
+}
+
+header{
+    
+    background-image: linear-gradient(to bottom, #3AD07D, #299457, #1A5C38 60%,#0F3D28 );
+    
+    margin: 0px;
+    
+    height: 190px;
+    border: 1px solid black;
+    box-shadow: 0px 1px 6px 0px rgb(136, 139, 137);
+    
+    text-align: center;
+    color: white;
+
+}
+
+h1#header{
+
+    font: normal 30px Bebas Neue;
+    margin: 0px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+
+    
+
+}
+
+p.header{
+
+    margin: 0px 0px 5px 0px;
+    font: 600 14px system-ui;
+    
+}
+
+
+menu{
+
+    text-align: left;
+    padding: 20px 20px 0px 0px;
+    margin: 20px 20px 0px 0px;
+
+}
+
+menu > ul{ 
+
+    padding-left: 0px;
+
+    font: normal 11px system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+
+    color: #92D6B1;
+    
+}
+
+div1{
+    
+    display: inline-block;
+
+    text-align: center;
+    
+    height: 28px;
+    width: 50px;
+    
+    border-radius: 5px;
+
+}
+
+div2{
+
+    display: inline-block;
+
+    text-align: center;
+    
+    height: 28px;
+    width: 60px;
+    
+    border-radius: 5px;
+    
+}
+
+div3{
+
+    display: inline-block;
+    
+    text-align: center;
+    
+    height: 28px;
+    width: 77px;
+
+    border-radius: 5px;
+    
+}
+
+div4{
+    
+    display: inline-block;
+    
+    text-align: center;
+    
+    height: 28px;
+    width: 77px;
+
+    border-radius: 5px;
+
+}
+
+div1:hover{
+    background-color: rgba(218, 218, 207, 0.533);
+
+}
+
+div2:hover{
+    background-color: rgba(220, 220, 208, 0.471);
+
+}
+
+div3:hover{
+    background-color: rgba(213, 213, 209, 0.47);
+
+}
+div4:hover{
+    background-color: rgba(228, 228, 222, 0.475);
+
+}
+
+
+section > h1{
+
+    color: #135f3c;
+
+    text-align: left;
+    font-family: IDroid;
+    font-size: 35px;
+
+    padding: 20px;
+    margin: 0;
+
+}
+
+section > p{
+
+    padding: 5px 20px 5px 20px;
+    margin: 0px;
+
+    text-align: justify;
+
+}
+
+section > h2{
+    color:#1b7040 ;
+    background-color: #92D6B1;
+    
+    font: normal 20px Idroid;
+
+    padding-left: 20px;
+
+}
+
+h2#curiosidade{
+
+    color: white; 
+    font: bold 20px arial;
+
+    background-color:#14542F;
+    padding: 0px 30px 0px 8px;
+    margin:30px 20px 0px 20px ;
+
+    border-radius: 20px 20px 0px 0px;
+    border: solid 10px #14542F;
+}
+
+div#curiosidades{
+
+    display: list-item;
+
+    color: black; 
+    font: normal 16px arial;
+    margin-top: 0px;
+
+    text-align: justify;
+    margin: 0px 20px 20px 20px;
+    
+    background-color: #80E2AB;
+    border-radius: 0px 0px 20px 20px;
+    padding: 20px 20px 20px 20px;
+}
+
+footer{
+    
+    text-align: center;
+    font: 300 14px ;
+    color: white;
+
+    background-color:#14542F;
+
+    border-color:  #14542F;
+    border-left: 50px;
+    border-right: 50px;
+
+    margin: 0px 0px;
+    padding: 0px 0px;
+    
+}
+
+
+
+
