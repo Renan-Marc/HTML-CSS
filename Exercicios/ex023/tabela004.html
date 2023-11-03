@@ -10,6 +10,12 @@
             
         }
 
+        caption{
+            font-size: 1.3em;
+            padding: 10px;
+            background-color: rgb(203, 218, 231);
+        }
+
         table{
             border-collapse: collapse;
             position: relative;
@@ -20,25 +26,42 @@
             background-color: black;
             color: white;
             font-weight: bold;
+            padding: 8px;
 
-            border: 1px solid black;
+            border: 1px solid rgb(0, 0, 0);
             position: sticky;
             top: -1px;
             
         }
 
+        tbody > tr > th{
+            background-color: black;
+            color: white;
+            font-weight: bold;
+            padding: 8px;
+
+            border: 1px solid rgb(0, 0, 0);
+            position: sticky;
+            top: -1px;
+            
+        }
+
+
         thead > tr > td{
+            
             text-align: center;
         
             font-weight: bold;
 
-            border: 1px solid black;
+            border: 1px solid gray;  
+
+            padding: 10px;
               
         }
 
         tbody > tr > td{
-            border: 1px solid black;
-            padding: 5px;
+            border: 1px solid gray;
+            padding: 10px;
             text-align: left;
             
             
@@ -61,30 +84,21 @@
 </head>
 <body>
     <table>
-        <caption></caption>
+        <caption>Filmes favoritos</caption>
 
-        <thead>
-            <tr>
-                <th>A</th>
-                <th>B</th>
-                <th>C</th>
-                <th>D</th>
-                <th>E</th>
-            </tr>
-        
-        
+        <thead>  
        
             <tr>
-                <td>Grupo</td>
-                <td>Nomes</td>
-                <td colspan="3">Filmes</td>
+                <th scope="col">Grupo</th>
+                <th scope="col">Nomes</th>
+                <th scope="colgroup" colspan="3">Filmes</th>
 
             </tr>
         </thead>    
         
          <tbody >
             <tr>
-                <td rowspan="3" class="bold">Mulheres</td>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
                 <td>Ana Maria Santos</td>
                 <td>Alien</td>
                 <td>Rambo</td>
@@ -112,7 +126,7 @@
             </tr>
 
             <tr>
-                <td rowspan="3" class="bold">Homens</td>
+                <th rowspan="3" scope="rowgroup">Homens</th>
                 <td>Bruno Mendonça</td>
                 <td>Intocáveis</td>
                 <td>Amnésia</td>
