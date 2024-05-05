@@ -5,40 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>site de teste</title>
     <style>
-    body{
+        body{
             font-family: Arial, Helvetica, sans-serif;
-            color: white;
-    }
-            
-    table{
-        border-collapse: collapse;
-    }
-
-    caption{
-        font-size: 1.3em;
-        font-weight: bolder;
-        padding: 20px;
-    }
-
-    th, td{
-        border: 1px solid rgb(0, 0, 0);
-        padding: 10px;
-    }
-
-    tr:nth-child(Even) {
-        background-color: white;
-    }
-
-    tr:nth-child(odd) {
-        background-color:white;
-
+            background-color:lightgrey;
         }
+
+        table{
+            border-collapse: collapse;
+        }
+
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 20px;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        tr:nth-child(even) {
+            background-color:rgba(240, 235, 235, 0.8);
+        }
+
+        tr:nth-child(odd){
+            background-color: white;
+        }
+
+        div#container {
+            width: 80vw;
+            overflow-x: auto;
+        }
+   
+    
     </style>
+
 </head>
 <body>
-    <table>
-        <caption>Vendas de rodutos por mês</caption>
+    
+    <h1>Isso é um teste!</h1> 
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque delectus a nam ratione, unde nihil, sed aperiam repellat porro illo eos harum saepe laudantium, voluptatibus at ex ut corrupti necessitatibus! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam veniam, illum neque est dolorem, voluptatibus blanditiis soluta quis minima suscipit quia laudantium, ullam placeat rem ad culpa beatae atque. Fuga.</p>
+
+    <div id="container">
+        <table>
             <thead>
+                <caption>Vendas de rodutos por mês</caption>
                 <tr>
                     <th>Produto</th>
                     <th>Jan</th>
@@ -70,8 +83,8 @@
                     <td>01</td>
                     <td>04</td>
                     <td>16</td>
-            </tr>
-                 <tr>
+                </tr>
+                <tr>
                     <td>Home Theater</td>
                     <td>01</td>
                     <td>04</td>
@@ -161,10 +174,9 @@
                     <td>04</td>
                     <td>16</td>
                 </tr>
-    
-    
-    
-        </tbody>
-    </table>
+        
+            </tbody>
+        </table>
+    </div>
 </body>
 </html>
